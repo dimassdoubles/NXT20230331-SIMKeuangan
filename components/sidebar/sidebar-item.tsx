@@ -1,14 +1,15 @@
 interface SidebarItemProp {
   title: string,
-  icon: JSX.Element
+  icon: JSX.Element,
+  isSelected?: boolean | false,
 }
 
 const SidebarItem = (props: SidebarItemProp) => {
     return (
-      <li>
-        <a href="#" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+      <li className={`${props.isSelected ? "bg-muted rounded-md" : ""}`}>
+        <a href="#" className={`flex items-center p-2 ${props.isSelected ? "" : "text-muted-foreground"}`}>
         {props.icon}
-        <span className="ms-3">{props.title}</span>
+        <span className={`ms-3 text-sm ${props.isSelected ? "" : "text-muted-foreground"}`}>{props.title}</span>
         </a>
       </li>
     )

@@ -7,13 +7,13 @@ const ContactDev = () => {
         <CardDescription>Daftar Kontak Developer</CardDescription>
         </CardHeader>
         <CardContent>
-            <div className="flex flex-row gap-2 my-2">
-                <Mail/>
-                <p>developer@gmail.com</p>
+            <div className="flex flex-row gap-2 my-2 text-sm mb-4">
+                <Mail className="w-5 h-5"/>
+                <p className="">developer@gmail.com</p>
             </div>
-            <div className="flex flex-row gap-2 my-2">
-                <Phone/>
-                <p>08123456789</p>
+            <div className="flex flex-row gap-2 my-2 text-sm">
+                <Phone className="w-5 h-5"/>
+                <p className="pt-[2px]">08123456789</p>
             </div>
         </CardContent>
     </Card>

@@ -8,9 +8,9 @@ const InformasiPemasukan = () => {
         <>
           <div className="grid pb-4 gap-4 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4">
               <CardUang title="Pemasukan Hari ini" amount="Rp. 200,001,-" subtitle="+10% dari hari lalu"/> 
-              <CardUang title="Pemasukan Bulan ini" amount="Rp. 4,910,001,-" subtitle="+10% dari hari lalu"/> 
-              <CardUang title="Pemasukan Tahun ini" amount="Rp. 4,910,001,-" subtitle="+10% dari hari lalu"/> 
-              <CardUang title="Seluruh Pengeluaran" amount="Rp. 45,480,00,-" subtitle="+10% dari hari lalu"/> 
+              <CardUang title="Pemasukan Bulan ini" amount="Rp. 4,910,001,-" subtitle="-8% dari bulan lalu"/> 
+              <CardUang title="Pemasukan Tahun ini" amount="Rp. 4,910,001,-" subtitle="+2% dari tahun lalu"/> 
+              <CardUang title="Seluruh Pengeluaran" amount="Rp. 45,480,00,-" subtitle=""/> 
             </div> 
         </>
     )
