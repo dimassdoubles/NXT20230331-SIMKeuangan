@@ -43,8 +43,16 @@ const Home = () => {
       </nav>
 
       <Sidebar href="/laporan/laba-rugi"/>
-    
-        <Image src="/laporan/laba-rugi.jpeg" alt="laporan laba rugi" layout="responsive" width={0} height={0}/>
+
+      <div className="p-4 mt-16 sm:ml-64 bg-white">
+          <Image src="/laporan/laba-rugi.jpeg" alt="laporan labar rugi" 
+            layout="responsive"
+            width={1920}
+            height={1080}
+          />
+      </div>
+
+      
     </>
   )
 }

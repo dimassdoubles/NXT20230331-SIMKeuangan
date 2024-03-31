@@ -1,10 +1,6 @@
-import Calendar from "@/components/calendar-dashboard"
-import ContactDev from "@/components/contact-dev"
-import GrafikPemasukanPengeluaran from "@/components/grafik-pemasukan-pengeluaran"
-import InformasiPemasukan from "@/components/informasi-pemasukan"
-import InformasiPengeluaran from "@/components/informasi-pengeluaran"
 import Sidebar from "@/components/sidebar/sidebar"
 import { LogOut } from "lucide-react"
+import Image from "next/image"
 
 const OutstandingPiutang = () => {
   return (
@@ -42,6 +38,14 @@ const OutstandingPiutang = () => {
       </nav>
 
       <Sidebar href="/outstanding/piutang"/>
+      <div className="p-4 mt-16 sm:ml-64 bg-white">
+          <Image src="/outstanding/piutang.jpeg" alt="outstanding piutang" 
+            layout="responsive"
+            width={1920}
+            height={1080}
+          />
+      </div>
+
     </>
   )
 }

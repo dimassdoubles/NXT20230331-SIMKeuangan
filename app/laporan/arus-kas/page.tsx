@@ -5,6 +5,7 @@ import InformasiPemasukan from "@/components/informasi-pemasukan"
 import InformasiPengeluaran from "@/components/informasi-pengeluaran"
 import Sidebar from "@/components/sidebar/sidebar"
 import { LogOut } from "lucide-react"
+import Image from "next/image"
 
 const ArusKas = () => {
   return (
@@ -42,6 +43,14 @@ const ArusKas = () => {
       </nav>
 
       <Sidebar href="/laporan/arus-kas"/>
+
+      <div className="p-4 mt-16 sm:ml-64 bg-white">
+          <Image src="/laporan/arus-kas.jpeg" alt="laporan arus kas" 
+            layout="responsive"
+            width={1920}
+            height={1080}
+          />
+      </div>
     </>
   )
 }
