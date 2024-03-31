@@ -5,6 +5,7 @@ import InformasiPemasukan from "@/components/informasi-pemasukan"
 import InformasiPengeluaran from "@/components/informasi-pengeluaran"
 import Sidebar from "@/components/sidebar/sidebar"
 import { LogOut } from "lucide-react"
+import Image from "next/image"
 
 const Home = () => {
   return (
@@ -42,7 +43,8 @@ const Home = () => {
       </nav>
 
       <Sidebar href="/laporan/laba-rugi"/>
-
+    
+        <Image src="/laporan/laba-rugi.jpeg" alt="laporan laba rugi" layout="responsive" width={0} height={0}/>
     </>
   )
 }

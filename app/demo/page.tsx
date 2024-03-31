@@ -6,7 +6,7 @@ import InformasiPengeluaran from "@/components/informasi-pengeluaran"
 import Sidebar from "@/components/sidebar/sidebar"
 import { LogOut } from "lucide-react"
 
-const BukuBesar = () => {
+const Demo = () => {
   return (
     <>
       <nav className="bg-[#0054A3] fixed top-0 z-50 w-full text-gray-200">
@@ -41,9 +41,9 @@ const BukuBesar = () => {
         </div>
       </nav>
 
-      <Sidebar href="/laporan/buku-besar"/>
+      <Sidebar href="/demo"/>
     </>
   )
 }
 
-export default BukuBesar
+export default Demo
