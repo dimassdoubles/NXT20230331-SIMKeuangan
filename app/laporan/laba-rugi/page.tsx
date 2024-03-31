@@ -41,24 +41,8 @@ const Home = () => {
         </div>
       </nav>
 
-      <Sidebar href="/"/>
+      <Sidebar href="/laporan/laba-rugi"/>
 
-      <div className="p-4 mt-16 sm:ml-64 bg-muted/40">
-          <div className="text-3xl font-semibold leading-none tracking-tigh mb-6">Dashboard</div>
-
-          <InformasiPemasukan/> 
-          <InformasiPengeluaran/>
-
-          <div className="flex py-4 gap-4">
-            <div className="grow">
-              <GrafikPemasukanPengeluaran/>
-            </div>
-            <div>
-              <Calendar/>
-              <ContactDev/>
-            </div> 
-          </div>
-      </div>
     </>
   )
 }
