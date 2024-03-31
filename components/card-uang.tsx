@@ -15,17 +15,17 @@ interface CardUangProps {
 
 const CardUang = (props: CardUangProps) => {
     return (
-        <Card>
+        <Card className="bg-[#0054A3] text-gray-200">
             <CardHeader className="pb-2">
             <div className="flex justify-between">
-                <CardDescription>{props.title}</CardDescription>    
-                <SquareArrowOutUpRight className="w-4 h-4 text-gray-500"/>  
+                <CardDescription className="text-gray-200">{props.title}</CardDescription>    
+                <SquareArrowOutUpRight className="w-4 h-4 text-gray-200"/>  
             </div>
             
             <CardTitle className="text-2xl">{props.amount}</CardTitle>
             </CardHeader>
             <CardContent>
-                <div className="text-xs text-muted-foreground">
+                <div className="text-xs">
                     {props.subtitle}
                 </div>
             </CardContent>
