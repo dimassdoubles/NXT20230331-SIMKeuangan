@@ -2,7 +2,7 @@ import { Mail, Phone } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader } from "./ui/card"
 
 const ContactDev = () => {
-    return <Card className="mt-4">
+    return <Card className="mt-4 bg-green-500 bg-opacity-15">
         <CardHeader className="pb-2">
         <CardDescription>Daftar Kontak Developer</CardDescription>
         </CardHeader>

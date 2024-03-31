@@ -3,7 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/
 
 const CalendarDashboard = () => {
     return (
-      <Card>
+      <Card className="bg-green-500 bg-opacity-15">
         <CardHeader className="pb-2">
         <CardDescription>Kalender</CardDescription>
         </CardHeader>
